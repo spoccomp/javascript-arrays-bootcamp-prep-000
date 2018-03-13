@@ -8,8 +8,11 @@ function destructivelyAddElementToBeginningOfArray(array, element){
   return array;
 }
 function addElementToEndOfArray(array, element){
-
+//[...cities, "Philadelphia"]
+  const newAddArrayMe = [...array, element];
+  return newAddArrayMe;
 }
 function destructivelyAddElementToEndOfArray(array, element){
-
+  array.push(element);
+  return array;
 }
