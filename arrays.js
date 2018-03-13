@@ -1,17 +1,10 @@
 var chocolateBars = ['snickers', 'hundred grand', 'kitkat', 'skittles'];
 function addElementToBeginningOfArray(array, element){
-
   const newAddArray = [element, ...array];
   return newAddArray;
-
-// but if we have a const
-const cats = ["Milo", "Garfield"]
-
-// we need a new variable:
-const moreCats = ["Felix", ...cats]
 }
 function destructivelyAddElementToBeginningOfArray(array, element){
-  array.unshift(elment);
+  array.unshift(element);
   return array;
 }
 function addElementToEndOfArray(array, element){
