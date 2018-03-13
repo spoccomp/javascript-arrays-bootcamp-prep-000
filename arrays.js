@@ -17,5 +17,6 @@ function destructivelyAddElementToEndOfArray(array, element){
   return array;
 }
 function accessElementInArray(array, index){
-  console.log(array[index]);
+  var element = " this is what hiding in the element of the array";
+  console.log(array[index] + element);
 }
