@@ -1,9 +1,9 @@
 var chocolateBars = ['snickers', 'hundred grand', 'kitkat', 'skittles'];
 function addElementToBeginningOfArray(array, element){
-  //[element, ...array];
-  //return array;
-  array.unshift(element)
-  return array
+  
+  const newAddArray = [element, ...array];
+  return ewAddArray;
+  
 // but if we have a const
 const cats = ["Milo", "Garfield"]
 
